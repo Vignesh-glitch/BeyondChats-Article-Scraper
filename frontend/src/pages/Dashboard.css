@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+}
+
+.dashboard-container {
+  padding: 24px;
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.dashboard-header p {
+  color: #555;
+  font-size: 15px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.stat-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.stat-card h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.stat-card .value {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.articles-table {
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  overflow-x: auto;
+}
+
+.articles-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.articles-table thead th {
+  font-size: 13px;
+  color: #777;
+  padding: 12px 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.articles-table tbody td {
+  padding: 12px 6px;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.articles-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.source-link {
+  color: #0a66ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.reload-btn {
+  background: #111;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  justify-self: end;
+}
+
+.reload-btn:hover {
+  background: #333;
+}

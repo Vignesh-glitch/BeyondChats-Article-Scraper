@@ -1,0 +1,29 @@
+body {
+  font-family: Poppins, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  margin: 12px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+}
+
+.card a {
+  color: #4a6cf7;
+  text-decoration: none;
+  font-weight: 600;
+}
